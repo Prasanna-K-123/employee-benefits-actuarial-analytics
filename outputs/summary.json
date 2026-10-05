@@ -1,0 +1,21 @@
+{
+  "scope": "educational employee-benefits actuarial analytics; synthetic data only",
+  "pension": {
+    "employees": 180,
+    "base_liability_proxy": 25267282.628964584,
+    "discount_minus_100bps_liability": 30369168.64185399,
+    "discount_plus_100bps_liability": 21205577.044792622,
+    "de_risking_proxy_reduction": 189504.6197172366,
+    "de_risking_proxy_reduction_pct": 0.007500000000000062
+  },
+  "health": {
+    "paid_to_date": 11749364.173840608,
+    "estimated_ultimate": 14813538.294267781,
+    "ibnr": 3064174.120427171,
+    "pad_rate": 0.05,
+    "pad": 153208.70602135855,
+    "reserve_with_pad": 3217382.8264485295,
+    "annual_claim_trend": 0.07,
+    "next_year_cost_proxy": 15850485.974866526
+  }
+}

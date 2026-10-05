@@ -1,0 +1,35 @@
+name: Employee Benefits Actuarial CI
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -m pytest -q
+      - run: python -m src.model
+      - name: Check published cached results
+        run: python -m src.verify_workbook Employee_Benefits_Actuarial_Model.xlsx
+      - name: Rebuild and compare formulas and inputs
+        run: |
+          cp Employee_Benefits_Actuarial_Model.xlsx /tmp/published.xlsx
+          python -m src.build_excel
+          python -m src.verify_workbook /tmp/published.xlsx Employee_Benefits_Actuarial_Model.xlsx
+      - name: Recalculate rebuilt workbook in LibreOffice
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libreoffice-calc
+          mkdir -p recalculated
+          libreoffice -env:UserInstallation=file:///tmp/benefits-lo --headless --convert-to xlsx --outdir recalculated Employee_Benefits_Actuarial_Model.xlsx
+          python -m src.verify_workbook recalculated/Employee_Benefits_Actuarial_Model.xlsx
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Employee_Benefits_Actuarial_Model
+          path: recalculated/Employee_Benefits_Actuarial_Model.xlsx
+          if-no-files-found: error
