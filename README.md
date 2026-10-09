@@ -12,7 +12,7 @@ The 55-cell public reinsurance triangle gives IBNR 52,135.23 and aggregate Mack 
 
 [![Employee Benefits Actuarial CI](https://github.com/Prasanna-K-123/employee-benefits-actuarial-analytics/actions/workflows/employee-benefits-actuarial-ci.yml/badge.svg)](https://github.com/Prasanna-K-123/employee-benefits-actuarial-analytics/actions/workflows/employee-benefits-actuarial-ci.yml)
 
-Independent educational portfolio work using **synthetic data only**. A formula-driven Excel workbook and a separate Python calculation layer demonstrate retirement liability proxies, benefit-start cash flows, claims development, IBNR, illustrative PAD and assumption sensitivity.
+The benefits workbook below uses **synthetic employee and health-claims data**. A formula-driven Excel workbook and a separate Python calculation layer demonstrate retirement liability proxies, benefit-start cash flows, claims development, IBNR, illustrative PAD and assumption sensitivity. The separate Mack reserving extension above uses the published **RAA reinsurance triangle**; its benchmark results are not health-client valuations.
 
 **Start here:** [Download the Excel workbook](https://github.com/Prasanna-K-123/employee-benefits-actuarial-analytics/raw/refs/heads/main/Employee_Benefits_Actuarial_Model.xlsx) · [Model review](docs/MODEL_REVIEW.md) · [Methodology and limitations](docs/METHODOLOGY_AND_LIMITATIONS.md) · [CI and rebuilt workbook](https://github.com/Prasanna-K-123/employee-benefits-actuarial-analytics/actions/workflows/employee-benefits-actuarial-ci.yml)
 
