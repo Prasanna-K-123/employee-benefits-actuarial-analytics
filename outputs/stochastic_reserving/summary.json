@@ -1,0 +1,14 @@
+{
+  "dataset": "Published RAA reinsurance triangle, 1981-1990",
+  "data_sha256": "2c154871665cadabb05422d511c01e64390ed595b1599d13ebe1356c14462333",
+  "observed_cells": 55,
+  "total_ibnr": 52135.228261210155,
+  "total_mack_std_error": 26909.01115564366,
+  "std_error_over_reserve": 0.5161387425182639,
+  "backtest_cells": 22,
+  "next_diagonal_chain_ladder_mae": 1885.2107114653436,
+  "next_diagonal_no_development_mae": 3425.4545454545455,
+  "tail_factor": 1.0,
+  "unit": "original published triangle units; no currency relabelling",
+  "caveat": "Retrospective benchmark replication; standard error is not a quantile or calibrated capital margin."
+}

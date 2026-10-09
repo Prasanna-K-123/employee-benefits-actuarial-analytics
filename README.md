@@ -1,4 +1,14 @@
-# Employee Benefits Actuarial Analytics — Retirement + Health & Welfare
+# Actuarial Risk Modelling — Employee Benefits & Stochastic Reserving
+
+## Evidence release — 2026-10-09
+
+[Published RAA reserves and uncertainty](outputs/stochastic_reserving/summary.json) · [Later-diagonal evaluation](outputs/stochastic_reserving/diagonal_backtest.csv) · [Independent Mack implementation](src/stochastic_reserving.py)
+
+The 55-cell public reinsurance triangle gives IBNR 52,135.23 and aggregate Mack standard error 26,909.01 in the original published units. Nine external rounded standard-error values reconcile within one unit. On 22 eligible later-diagonal cells, chain-ladder MAE is 1,885.21 versus 3,425.45 for no development. This is a retrospective benchmark replication, not a calibrated health reserve. Run `python -m src.stochastic_reserving`; the expanded model suite has 12 passing tests.
+
+[Research scope and next extension](docs/EVIDENCE_REVIEW.md)
+
+---
 
 [![Employee Benefits Actuarial CI](https://github.com/Prasanna-K-123/employee-benefits-actuarial-analytics/actions/workflows/employee-benefits-actuarial-ci.yml/badge.svg)](https://github.com/Prasanna-K-123/employee-benefits-actuarial-analytics/actions/workflows/employee-benefits-actuarial-ci.yml)
 
@@ -50,4 +60,3 @@ The retirement proxy omits mortality, turnover, plan-specific rules, assets and 
 ## Project provenance
 
 This is the standalone continuation of the [original project in the profile repository](https://github.com/Prasanna-K-123/Prasanna-K-123/tree/5ca25bdc21308c02def796b85ba45cf7d4aae5a5/workforce-solutions-actuarial-analytics). The original evidence and history remain intact. The core Python model, synthetic seed, eight controls and headline results are preserved. This release adds a direct workbook download and workbook checks, corrects the years-to-retirement format, adds the pension total and selected-trend output, and handles a zero annuity rate.
-
