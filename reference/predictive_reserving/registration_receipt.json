@@ -1,0 +1,26 @@
+{
+  "commit": "95d17e708e7eec12642cd5faa7ca7c7df8c62296",
+  "tree": "d4983c3095930c6220760aa1c1ebb4b689e46dab",
+  "base_commit": "ef3c28a0ecd37eab4fd8bcf21596c0b013b8273c",
+  "protocol_sha256": "49cd1c7bad5c2d8a1c72fd25cf2d7a5faa8b15e2c0a6002964fd8c8f54a98b01",
+  "frozen_sha256": {
+    "src/predictive_reserving.py": "6496c6aeb5b494f44eee3401c470f46db8c2b74caeba03828353e636a86e8a76",
+    "benchmark_predictive_reserving.py": "28a5e1e6f2b1f3fa949254816930580fd2653c6752dfd0366da848c2655c3204",
+    "collect_predictive_sources.py": "1ed430a6c51af24a94513f098ebd8eab8e6fba632e23b4acde61bbd51ba96006",
+    "verify_predictive_reserving.py": "68f0ddbe3e5541afcc629a6be64ed528fc139e42888ed7f5cca3ec2410717e94",
+    "tests/test_predictive_reserving.py": "c055cf638bea053d5422d8e7711c86f4c55bd3bd8a2b56f1d27a709c2839363f",
+    "requirements-predictive.txt": "292eaf28f052fe94beaad4d6249689b50299f5f0ad7b4b2b0d1e2b24dfadedec",
+    ".github/workflows/predictive-reserving.yml": "2d170f62c0017215fbc5e10b1bae4d92a68a2b914a68a8916b6d46a02a90e7b2",
+    "data/predictive_reserving/NOTICE.md": "c2eaaa7d7d9f555f67353b19209dc6088ff4653d875dca36792f28e76aaaf6a0",
+    "reference/predictive_reserving/PROTOCOL.json": "49cd1c7bad5c2d8a1c72fd25cf2d7a5faa8b15e2c0a6002964fd8c8f54a98b01",
+    "requirements.txt": "913f125cb8aa45a165f4217214eb7b11b2ee75b8703cbebf175e4019e0b3346b"
+  },
+  "registration_remote_blobs_verified": true,
+  "scope": "Dependency/collector provenance amendment before primary study execution; source collection occurred under initial protocol. Statistical design unchanged.",
+  "all_27_other_original_blobs_preserved": true,
+  "initial_registration_commit": "3c75d8ed52c87eb09280325ab1ec9c32202d0746",
+  "initial_protocol_sha256": "5831006d6ad5a6be3199fe3f1927bd52609c7d8561f57e5ce06e00a4c499cfe7",
+  "source_collection_registration_commit": "3c75d8ed52c87eb09280325ab1ec9c32202d0746",
+  "pre_execution_dependency_commit": "12ad3aa2b2cbf94144782590ba865125f1a065ca",
+  "computational_amendment": "Declared absorbing-zero/failure recording repaired after interrupted attempt; same 1024 cases and scientific design. Seven completed public files preserved."
+}

@@ -1,3 +1,11 @@
+# Current predictive extension - 2026-10-11
+
+[Full predictive uncertainty review](PREDICTIVE_UNCERTAINTY_REVIEW.md), [registered source/design](../reference/predictive_reserving/PROTOCOL.json) and [complete evidence](../outputs/predictive_reserving/summary.json) extend the same actuarial family. Six public measures, 123 known later-diagonal cells and 1,024 controlled cases expose weak nominal coverage and calendar/tail sensitivity. All original RAA references, 22 inspected predictions and benefits workbook are retained. No new untouched public holdout, coverage guarantee, client valuation or third-party review is claimed.
+
+The defined comparison is complete. Dispersion uncertainty, validated calendar-aware/higher-moment alternatives, independent insurer/vintage evidence, mortality/turnover and real benefit rules remain substantive gaps. The earlier note below keeps its historical scope.
+
+---
+
 # Evidence review: Actuarial Risk Modelling
 
 Independent portfolio research. Updated 2026-10-09. Development and documentation include AI assistance; the committed executable code, data provenance and test outputs establish the work products. No institutional endorsement or third-party authorship review is claimed.

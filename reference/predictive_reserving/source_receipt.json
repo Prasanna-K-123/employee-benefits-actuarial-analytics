@@ -1,0 +1,45 @@
+{
+  "protocol_sha256": "5831006d6ad5a6be3199fe3f1927bd52609c7d8561f57e5ce06e00a4c499cfe7",
+  "registration_commit": "3c75d8ed52c87eb09280325ab1ec9c32202d0746",
+  "license": "Bundled upstream data from MPL-2.0 repository; unmodified source files; data/LICENSE-MPL-2.0.txt and data/predictive_reserving/NOTICE.md retained.",
+  "files": [
+    {
+      "path": "data/predictive_reserving/abc.csv",
+      "url": "https://raw.githubusercontent.com/casact/chainladder-python/856f87b5651004c799cf06704b8a9c3f7dd61d98/chainladder/utils/data/abc.csv",
+      "git_blob_sha": "219d3f1c3c02ff53c58bb589eb7c25dbf9dd27d8",
+      "bytes": 1286,
+      "sha256": "f2d33cb1e71f185ba6c13f23a9863ce81171f026269ff5cd5d890c15377122bb",
+      "upstream_commit": "856f87b5651004c799cf06704b8a9c3f7dd61d98"
+    },
+    {
+      "path": "data/predictive_reserving/genins.csv",
+      "url": "https://raw.githubusercontent.com/casact/chainladder-python/856f87b5651004c799cf06704b8a9c3f7dd61d98/chainladder/utils/data/genins.csv",
+      "git_blob_sha": "9fd3ead5784bae6ad8f6ff01ac3b6cffd07a2ebc",
+      "bytes": 1116,
+      "sha256": "b4e0de67c11ed27d2e29286193ffc707e5dae285525526828a27aecfbf7507da",
+      "upstream_commit": "856f87b5651004c799cf06704b8a9c3f7dd61d98"
+    },
+    {
+      "path": "data/predictive_reserving/ukmotor.csv",
+      "url": "https://raw.githubusercontent.com/casact/chainladder-python/856f87b5651004c799cf06704b8a9c3f7dd61d98/chainladder/utils/data/ukmotor.csv",
+      "git_blob_sha": "02865d37a47af33817e14902ddccc9b97f9d6ab0",
+      "bytes": 514,
+      "sha256": "b8f40f34f70cf4f110986bf1db353af52bc9c57b3ad399d24b455a4028f63283",
+      "upstream_commit": "856f87b5651004c799cf06704b8a9c3f7dd61d98"
+    },
+    {
+      "path": "data/predictive_reserving/usaa.csv",
+      "url": "https://raw.githubusercontent.com/casact/chainladder-python/856f87b5651004c799cf06704b8a9c3f7dd61d98/chainladder/utils/data/usaa.csv",
+      "git_blob_sha": "32c5d7e9254893ecd9b6e90c83ba2cf048bbac00",
+      "bytes": 1635,
+      "sha256": "b029a095c47cb6ef6fc267c33ccf6f2d638b3847f6c7277a8c6b359f479657fb",
+      "upstream_commit": "856f87b5651004c799cf06704b8a9c3f7dd61d98"
+    },
+    {
+      "path": "data/raa.csv",
+      "bytes": 996,
+      "sha256": "2c154871665cadabb05422d511c01e64390ed595b1599d13ebe1356c14462333",
+      "source": "previously inspected original RAA benchmark"
+    }
+  ]
+}

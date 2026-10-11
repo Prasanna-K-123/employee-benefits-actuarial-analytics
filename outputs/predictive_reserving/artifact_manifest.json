@@ -1,0 +1,139 @@
+{
+  "files": [
+    {
+      "path": "src/predictive_reserving.py",
+      "bytes": 16053,
+      "sha256": "6496c6aeb5b494f44eee3401c470f46db8c2b74caeba03828353e636a86e8a76"
+    },
+    {
+      "path": "benchmark_predictive_reserving.py",
+      "bytes": 9509,
+      "sha256": "28a5e1e6f2b1f3fa949254816930580fd2653c6752dfd0366da848c2655c3204"
+    },
+    {
+      "path": "collect_predictive_sources.py",
+      "bytes": 2441,
+      "sha256": "1ed430a6c51af24a94513f098ebd8eab8e6fba632e23b4acde61bbd51ba96006"
+    },
+    {
+      "path": "verify_predictive_reserving.py",
+      "bytes": 5568,
+      "sha256": "68f0ddbe3e5541afcc629a6be64ed528fc139e42888ed7f5cca3ec2410717e94"
+    },
+    {
+      "path": "tests/test_predictive_reserving.py",
+      "bytes": 6136,
+      "sha256": "c055cf638bea053d5422d8e7711c86f4c55bd3bd8a2b56f1d27a709c2839363f"
+    },
+    {
+      "path": "requirements-predictive.txt",
+      "bytes": 71,
+      "sha256": "292eaf28f052fe94beaad4d6249689b50299f5f0ad7b4b2b0d1e2b24dfadedec"
+    },
+    {
+      "path": ".github/workflows/predictive-reserving.yml",
+      "bytes": 899,
+      "sha256": "2d170f62c0017215fbc5e10b1bae4d92a68a2b914a68a8916b6d46a02a90e7b2"
+    },
+    {
+      "path": "reference/predictive_reserving/PROTOCOL.json",
+      "bytes": 12990,
+      "sha256": "49cd1c7bad5c2d8a1c72fd25cf2d7a5faa8b15e2c0a6002964fd8c8f54a98b01"
+    },
+    {
+      "path": "reference/predictive_reserving/registration_receipt.json",
+      "bytes": 2160,
+      "sha256": "bfeb73676ad3d3c8f66edda572813de20d9a05df9e8f3ec52b4f2dfb1a99b491"
+    },
+    {
+      "path": "reference/predictive_reserving/source_receipt.json",
+      "bytes": 2369,
+      "sha256": "e3a25f026f066b29fad77c0252ce48281823a587cb6ab8294167ec702c731512"
+    },
+    {
+      "path": "data/predictive_reserving/abc.csv",
+      "bytes": 1286,
+      "sha256": "f2d33cb1e71f185ba6c13f23a9863ce81171f026269ff5cd5d890c15377122bb"
+    },
+    {
+      "path": "data/predictive_reserving/genins.csv",
+      "bytes": 1116,
+      "sha256": "b4e0de67c11ed27d2e29286193ffc707e5dae285525526828a27aecfbf7507da"
+    },
+    {
+      "path": "data/predictive_reserving/ukmotor.csv",
+      "bytes": 514,
+      "sha256": "b8f40f34f70cf4f110986bf1db353af52bc9c57b3ad399d24b455a4028f63283"
+    },
+    {
+      "path": "data/predictive_reserving/usaa.csv",
+      "bytes": 1635,
+      "sha256": "b029a095c47cb6ef6fc267c33ccf6f2d638b3847f6c7277a8c6b359f479657fb"
+    },
+    {
+      "path": "data/raa.csv",
+      "bytes": 996,
+      "sha256": "2c154871665cadabb05422d511c01e64390ed595b1599d13ebe1356c14462333"
+    },
+    {
+      "path": "outputs/predictive_reserving/calendar_residuals.csv",
+      "bytes": 9969,
+      "sha256": "f5854b10520f81e3ccc7c2064905f9a1e9ec12f1bd1b988575652df9f7843401"
+    },
+    {
+      "path": "outputs/predictive_reserving/calendar_summary.csv",
+      "bytes": 2760,
+      "sha256": "fd1b17f4e0f06220694d845823e3295c235ace4b3be6e9f4957355484fda7a81"
+    },
+    {
+      "path": "outputs/predictive_reserving/calibration_cases.csv",
+      "bytes": 1627064,
+      "sha256": "2f3c8ac3008e7467706364ff2489ee8a625f87934b400b0d6e43a325a06a88c1"
+    },
+    {
+      "path": "outputs/predictive_reserving/calibration_designs.npz",
+      "bytes": 244199,
+      "sha256": "63fbc28a5c90b024381792bbc1b64851d3e41dde3891434efe9f44b73a303d2f"
+    },
+    {
+      "path": "outputs/predictive_reserving/calibration_summary.json",
+      "bytes": 11466,
+      "sha256": "64957f9f2a3129e4cfd547fb6c727d7c5f523464aebdc42650e23aa039344f26"
+    },
+    {
+      "path": "outputs/predictive_reserving/environment.json",
+      "bytes": 157,
+      "sha256": "41da64ba1a98657e11d7ab22f3eef238e67ff25fe50281388bbab9660ff3c45f"
+    },
+    {
+      "path": "outputs/predictive_reserving/public_diagonal_predictions.csv",
+      "bytes": 117860,
+      "sha256": "4874c8f698c450f03dfe69261c941b1078550464b9e7b97d02a23428bb805d42"
+    },
+    {
+      "path": "outputs/predictive_reserving/public_diagonal_summary.csv",
+      "bytes": 3882,
+      "sha256": "fe34beefc6cff65c994154eb5f8eb4ab1ad5a38282918a7fc330ca152b7b7830"
+    },
+    {
+      "path": "outputs/predictive_reserving/public_reserve_summary.json",
+      "bytes": 52166,
+      "sha256": "83bfbf229e8426c425337371dc3be7029e49639716fc7b12beeced39ac8c7bfb"
+    },
+    {
+      "path": "outputs/predictive_reserving/public_samples.npz",
+      "bytes": 2143779,
+      "sha256": "957c2b122a48d4367400f3824960ba840fbc128f00682a870eeec609ddca978d"
+    },
+    {
+      "path": "outputs/predictive_reserving/summary.json",
+      "bytes": 1012,
+      "sha256": "f0cad623e924ffa43e0c2c081d895b6f69845c5b6754f49e34031b0b0ed3ab8b"
+    },
+    {
+      "path": "outputs/predictive_reserving/tail_sensitivity.csv",
+      "bytes": 1882,
+      "sha256": "c472de5a9c94c2eb74bdc90ddac881bcf41d8278a3d16977883afe7ca213a9c2"
+    }
+  ]
+}

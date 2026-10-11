@@ -1,5 +1,18 @@
 # Actuarial Risk Modelling — Employee Benefits & Stochastic Reserving
 
+## Registered predictive uncertainty review - 2026-10-11
+
+[Read the predictive/calibration review](docs/PREDICTIVE_UNCERTAINTY_REVIEW.md) · [Frozen protocol](reference/predictive_reserving/PROTOCOL.json) · [Complete result summary](outputs/predictive_reserving/summary.json) · [Simulation cases](outputs/predictive_reserving/calibration_cases.csv)
+
+Six public benchmark measures give **123 later-diagonal cells** and **23 eligible diagonal sums**. The same 22 inspected RAA predictions remain intact. Point forecasts beat no-development MAE on each measure, but nominal 95% moment intervals cover only **8/26 ABC cells**, **12/22 USAA incurred cells**, and **0/4 USAA paid eligible diagonal sums**. Public counts are dependent retrospective diagnostics, not observed final-reserve calibration.
+
+A fixed **1,024-case simulation study** compares normal/lognormal Mack moments and shared-factor gamma/lognormal approximations, separating process and shared parameter risk. Under simulated shared calendar risk, nominal 95% coverage is only **79.3-83.6%**. One gamma training case fails all four methods and stays in the denominator. USAA incurred's negative development, negative normal endpoints, numerical gamma zeros and deterministic tail sensitivity are retained.
+
+**37 tests** plus exact-source/public-result/design/score verification and 16 fixed simulation-case replays. Shared-factor simulation is a stated moment heuristic, not a validated bootstrap, posterior, regulatory-capital model or client reserve. See the review for assumptions, all adverse results, computational amendments and reproduction.
+
+[![Registered Predictive Reserving](https://github.com/Prasanna-K-123/employee-benefits-actuarial-analytics/actions/workflows/predictive-reserving.yml/badge.svg)](https://github.com/Prasanna-K-123/employee-benefits-actuarial-analytics/actions/workflows/predictive-reserving.yml)
+
+
 ## Evidence release — 2026-10-09
 
 [Published RAA reserves and uncertainty](outputs/stochastic_reserving/summary.json) · [Later-diagonal evaluation](outputs/stochastic_reserving/diagonal_backtest.csv) · [Independent Mack implementation](src/stochastic_reserving.py)

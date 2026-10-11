@@ -1,0 +1,23 @@
+{
+  "protocol_sha256": "49cd1c7bad5c2d8a1c72fd25cf2d7a5faa8b15e2c0a6002964fd8c8f54a98b01",
+  "public_measures": 6,
+  "public_sources": 5,
+  "public_draws_per_mode": 8192,
+  "public_eligible_cell_predictions": 123,
+  "public_eligible_diagonals": 23,
+  "independent_simulated_cases": 1024,
+  "cases_per_scenario": 256,
+  "predictive_draws_per_simulation_method": 4096,
+  "calibration_method_rows": 4096,
+  "failed_calibration_methods": 4,
+  "interpretation": "Public later-diagonals are retrospective, dependent diagnostics. Synthetic coverage is conditional on four fixed simulation designs. Shared-factor moment simulation is not a validated bootstrap, posterior or regulatory capital model.",
+  "unestimated": [
+    "dispersion-parameter uncertainty",
+    "cross-age factor dependence",
+    "empirical-tail uncertainty",
+    "unobserved exposure/claim mix changes",
+    "calendar dependence unless explicitly stressed",
+    "new insurer/time validation",
+    "client pension/health liability calibration"
+  ]
+}
