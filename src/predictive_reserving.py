@@ -255,7 +255,11 @@ def complete_simulation(case, seed):
             x = full[i,k]
             factor = f[k]*(1.10 if case == 'future_calendar_shock' and i+k+1 == n else 1.)
             mu, var = factor*x,s[k]*x
-            if case == 'independent_gamma':
+            if x == 0:
+                # Retain a finite-precision zero as absorbing; do not divide
+                # by zero, floor it or discard this registered scenario.
+                full[i,k+1] = 0.
+            elif case == 'independent_gamma':
                 cell_rng = np.random.default_rng(np.random.SeedSequence(list(seed)+[i,k,901]))
                 full[i,k+1] = cell_rng.gamma(mu*mu/var,var/mu)
             else:
@@ -272,7 +276,14 @@ def complete_simulation(case, seed):
 def calibration_case(scenario_index, replicate, draws):
     case = SCENARIOS[scenario_index]
     observed,truth = complete_simulation(case,[20261011,scenario_index,replicate,0])
-    fit = parts(observed)
+    try:
+        fit = parts(observed)
+    except ValueError as e:
+        scale=float(sum(observed[i,len(observed)-i-1] for i in range(len(observed))))
+        return [dict(scenario=case,replicate=replicate,method=method,actual=truth,point=None,scale=scale,
+            training_array_sha256=hashlib.sha256(observed.tobytes()).hexdigest(),status='failed',
+            error='Invalid observed training: '+str(e),final_zero_origin_draws=0,
+            observed_zero_cells=int(np.sum(observed==0))) for method in METHODS]
     point = float(fit['ibnr'].sum())
     variance = fit['total_std_error']**2
     scale = float(fit['latest'].sum())
@@ -288,6 +299,7 @@ def calibration_case(scenario_index, replicate, draws):
                 d = shared_projection(observed,draws,[20261011,scenario_index,replicate,1 if family=='lognormal' else 2],family)
                 q = np.quantile(d['reserve'],PROBS)
             key['final_zero_origin_draws'] = d['final_zero_origin_draws'] if method.startswith('shared_') else 0
+            key['observed_zero_cells'] = 0
             rows.append(dict(**key,status='ok',error='',**score_row(truth,q,scale)))
         except (ValueError,FloatingPointError) as e:
             rows.append(dict(**key,status='failed',error=str(e)))

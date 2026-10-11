@@ -74,17 +74,25 @@ def public_work(p, out):
     return reserve,summaries
 
 
-def run(out, workers=4):
+def run(out, workers=4, resume=False):
     p=protocol_guard()
     out=Path(out)
     if out.exists() and any(out.iterdir()):
-        raise ValueError('Refuse to replace completed study output')
+        expected={'public_diagonal_predictions.csv','calendar_residuals.csv','tail_sensitivity.csv',
+                  'public_reserve_summary.json','public_samples.npz','public_diagonal_summary.csv','calendar_summary.csv'}
+        if not resume or {x.name for x in out.iterdir()}!=expected:
+            raise ValueError('Refuse to replace completed or unrecognized study output')
     out.mkdir(parents=True,exist_ok=True)
     receipt=json.loads((STUDY/'source_receipt.json').read_text())
     for item in receipt['files']:
         if sha(ROOT/item['path'])!=item['sha256']:
             raise ValueError('Registered collected source changed')
-    reserve,public_summary=public_work(p,out)
+    if resume:
+        reserve=json.loads((out/'public_reserve_summary.json').read_text())
+        public_summary=pd.read_csv(out/'public_diagonal_summary.csv',float_precision='round_trip').to_dict('records')
+        print('PRESERVED_PUBLIC_OUTPUTS_NO_REEXECUTION',flush=True)
+    else:
+        reserve,public_summary=public_work(p,out)
     tasks=[(s,r,p['calibration_draws']) for s in range(len(SCENARIOS)) for r in range(p['calibration_cases_per_scenario'])]
     rows=[]
     with ProcessPoolExecutor(max_workers=workers) as pool:
@@ -125,6 +133,8 @@ def run(out, workers=4):
 
 if __name__=='__main__':
     ap=argparse.ArgumentParser();ap.add_argument('--output',default=str(ROOT/'outputs/predictive_reserving'))
-    ap.add_argument('--workers',type=int,default=4);args=ap.parse_args()
+    ap.add_argument('--workers',type=int,default=4);ap.add_argument('--resume',action='store_true');args=ap.parse_args()
+    # A completed summary can never be overwritten. Resume is restricted
+    # to the exact seven public files from an interrupted calibration run.
     if not 1<=args.workers<=4: raise ValueError('Workers must be 1..4')
-    run(args.output,args.workers)
+    run(args.output,args.workers,args.resume)

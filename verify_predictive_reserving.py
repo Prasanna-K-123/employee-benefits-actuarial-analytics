@@ -10,7 +10,9 @@ from src.predictive_reserving import (ROOT,PROBS,SCENARIOS,METHODS,protocol_guar
 
 
 def equal(a,b,path=''):
-    if isinstance(a,dict):
+    if a is None:
+        assert b is None or pd.isna(b),path
+    elif isinstance(a,dict):
         assert set(a)==set(b),path
         for k in a: equal(a[k],b[k],path+'/'+str(k))
     elif isinstance(a,list):

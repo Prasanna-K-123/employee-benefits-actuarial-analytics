@@ -8,6 +8,16 @@ from src.predictive_reserving import (PROBS,parts,one_step_moments,moment_quanti
     calibration_summary,order_bracket,load_public)
 
 
+def test_invalid_observed_simulation_records_every_failed_method(monkeypatch):
+    import src.predictive_reserving as module
+    c=noiseless();c[2,0]=0
+    monkeypatch.setattr(module,'complete_simulation',lambda case,seed:(c,12.))
+    rows=module.calibration_case(0,0,16)
+    assert len(rows)==4
+    assert all(r['status']=='failed' and r['actual']==12 and r['point'] is None for r in rows)
+    assert all(r['observed_zero_cells']==1 for r in rows)
+
+
 def noiseless():
     return np.array([[100.,200.,250.,275.],[120.,240.,300.,np.nan],
                      [140.,280.,np.nan,np.nan],[160.,np.nan,np.nan,np.nan]])

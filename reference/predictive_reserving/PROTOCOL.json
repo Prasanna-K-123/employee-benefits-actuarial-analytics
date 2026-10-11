@@ -185,5 +185,44 @@
     "initial_legacy_ci_failure_run": 38102136575,
     "initial_failed_job": 114360068344,
     "source_collection_receipt_preserved": true
+  },
+  "computational_execution_amendment": {
+    "reason": "Interrupted calibration: a finite-precision gamma zero violated positive observed-cell fit requirements. Apply declared absorbing-zero rule in simulated DGP, record all four methods as failed on invalid observed training, and retain those cases in coverage denominator. Public results preserved; no statistical parameter, data, method, seed, budget or scoring change.",
+    "previous_execution_registration_commit": "12ad3aa2b2cbf94144782590ba865125f1a065ca",
+    "previous_protocol_sha256": "a3fdaa9828e2d7c7039e7ba2fa5223e3937be4a6f5381252b3adb9700cd68ebf",
+    "public_output_files_preserved_sha256": {
+      "public_reserve_summary.json": {
+        "bytes": 52166,
+        "sha256": "83bfbf229e8426c425337371dc3be7029e49639716fc7b12beeced39ac8c7bfb"
+      },
+      "public_diagonal_summary.csv": {
+        "bytes": 3882,
+        "sha256": "fe34beefc6cff65c994154eb5f8eb4ab1ad5a38282918a7fc330ca152b7b7830"
+      },
+      "calendar_summary.csv": {
+        "bytes": 2760,
+        "sha256": "fd1b17f4e0f06220694d845823e3295c235ace4b3be6e9f4957355484fda7a81"
+      },
+      "tail_sensitivity.csv": {
+        "bytes": 1882,
+        "sha256": "c472de5a9c94c2eb74bdc90ddac881bcf41d8278a3d16977883afe7ca213a9c2"
+      },
+      "calendar_residuals.csv": {
+        "bytes": 9969,
+        "sha256": "f5854b10520f81e3ccc7c2064905f9a1e9ec12f1bd1b988575652df9f7843401"
+      },
+      "public_diagonal_predictions.csv": {
+        "bytes": 117860,
+        "sha256": "4874c8f698c450f03dfe69261c941b1078550464b9e7b97d02a23428bb805d42"
+      },
+      "public_samples.npz": {
+        "bytes": 2143779,
+        "sha256": "957c2b122a48d4367400f3824960ba840fbc128f00682a870eeec609ddca978d"
+      }
+    },
+    "initial_attempt_completed_public_measures": 6,
+    "initial_attempt_emitted_case_count": 320,
+    "calibration_case_artifacts_from_interrupted_attempt": 0,
+    "coverage_results_not_selected_or_retuned": true
   }
 }
