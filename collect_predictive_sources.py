@@ -30,7 +30,8 @@ def collect(verify_committed=False):
             bytes=len(b),sha256=hashlib.sha256(b).hexdigest(),upstream_commit=p['upstream_commit']))
     old=ROOT/'data/raa.csv'
     records.append(dict(path='data/raa.csv',bytes=old.stat().st_size,sha256=sha(old),source='previously inspected original RAA benchmark'))
-    result=dict(protocol_sha256=sha(STUDY/'PROTOCOL.json'),registration_commit=json.loads((STUDY/'registration_receipt.json').read_text())['commit'],
+    result=dict(protocol_sha256=p.get('source_collection_protocol_sha256',sha(STUDY/'PROTOCOL.json')),
+        registration_commit=p.get('source_collection_registration_commit',json.loads((STUDY/'registration_receipt.json').read_text())['commit']),
         license='Bundled upstream data from MPL-2.0 repository; unmodified source files; data/LICENSE-MPL-2.0.txt and data/predictive_reserving/NOTICE.md retained.',
         files=records)
     if verify_committed:

@@ -169,12 +169,21 @@
     "outputs/stochastic_reserving/raa_reserves.csv": "58364ef0a23cab9ee80e3af59808ec481580e149a2fbd6a1900e5676fe5c9dc7",
     "outputs/stochastic_reserving/summary.json": "b8388a8a618fb4c0619dbac80723c71ee5d6d037e626dd8ff050be284af06dca",
     "outputs/summary.json": "1b8ca55716921614e57773f30fd0aee737480252d7894944bc1047becaaea2da",
-    "requirements.txt": "dfeae678b08313bfb79e414bc8ef277b0dc91ffd699332468d44b8adc81c6896",
     "src/build_excel.py": "9e84f56856c74ce38af18195194b0daa9775f21dcaeacd91399c1517b4413c85",
     "src/model.py": "ce6a653ba6f38c1d85ebf435b8c3b104962abe66ef6af3066fcd33d201d7fef2",
     "src/stochastic_reserving.py": "67681a16d8fc2758e08a8d501f87fa347ba962f98607f07b1db97c5aa65a01d6",
     "src/verify_workbook.py": "e188d6655dd589aa646c920b671c9f01190c68b4bc3a4460e102b58a9331f104",
     "tests/test_model.py": "5bf06752b90fc7f94052b3eb1cf316d45d6e87f77481d863d12bc06ea78cb821",
     "tests/test_stochastic_reserving.py": "787867489f6501cfb96b02492c4aaf1aa858c92f851bd0c1b862668b7c5b9a25"
+  },
+  "source_collection_registration_commit": "3c75d8ed52c87eb09280325ab1ec9c32202d0746",
+  "source_collection_protocol_sha256": "5831006d6ad5a6be3199fe3f1927bd52609c7d8561f57e5ce06e00a4c499cfe7",
+  "pre_execution_amendment": {
+    "reason": "Original workflow could not import new predictive tests without SciPy. Append pinned SciPy dependency to original requirements; statistical procedures, sources, seeds, budgets and scores unchanged. Amendment before any registered primary study execution.",
+    "initial_registration_commit": "3c75d8ed52c87eb09280325ab1ec9c32202d0746",
+    "initial_protocol_sha256": "5831006d6ad5a6be3199fe3f1927bd52609c7d8561f57e5ce06e00a4c499cfe7",
+    "initial_legacy_ci_failure_run": 38102136575,
+    "initial_failed_job": 114360068344,
+    "source_collection_receipt_preserved": true
   }
 }
