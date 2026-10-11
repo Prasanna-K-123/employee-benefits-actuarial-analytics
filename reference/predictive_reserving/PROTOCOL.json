@@ -1,0 +1,180 @@
+{
+  "study": "Registered public-triangle predictive sensitivity and synthetic calibration",
+  "registered_date": "2026-10-11",
+  "base_commit": "ef3c28a0ecd37eab4fd8bcf21596c0b013b8273c",
+  "upstream_commit": "856f87b5651004c799cf06704b8a9c3f7dd61d98",
+  "public_measures": [
+    {
+      "id": "raa",
+      "path": "data/raa.csv",
+      "measure": "values"
+    },
+    {
+      "id": "genins",
+      "path": "data/predictive_reserving/genins.csv",
+      "measure": "values"
+    },
+    {
+      "id": "abc",
+      "path": "data/predictive_reserving/abc.csv",
+      "measure": "values"
+    },
+    {
+      "id": "ukmotor",
+      "path": "data/predictive_reserving/ukmotor.csv",
+      "measure": "values"
+    },
+    {
+      "id": "usaa_paid",
+      "path": "data/predictive_reserving/usaa.csv",
+      "measure": "paid"
+    },
+    {
+      "id": "usaa_incurred",
+      "path": "data/predictive_reserving/usaa.csv",
+      "measure": "incurred"
+    }
+  ],
+  "new_source_blobs": [
+    {
+      "path": "data/predictive_reserving/abc.csv",
+      "git_blob_sha": "219d3f1c3c02ff53c58bb589eb7c25dbf9dd27d8",
+      "bytes": 1286,
+      "url": "https://raw.githubusercontent.com/casact/chainladder-python/856f87b5651004c799cf06704b8a9c3f7dd61d98/chainladder/utils/data/abc.csv"
+    },
+    {
+      "path": "data/predictive_reserving/genins.csv",
+      "git_blob_sha": "9fd3ead5784bae6ad8f6ff01ac3b6cffd07a2ebc",
+      "bytes": 1116,
+      "url": "https://raw.githubusercontent.com/casact/chainladder-python/856f87b5651004c799cf06704b8a9c3f7dd61d98/chainladder/utils/data/genins.csv"
+    },
+    {
+      "path": "data/predictive_reserving/ukmotor.csv",
+      "git_blob_sha": "02865d37a47af33817e14902ddccc9b97f9d6ab0",
+      "bytes": 514,
+      "url": "https://raw.githubusercontent.com/casact/chainladder-python/856f87b5651004c799cf06704b8a9c3f7dd61d98/chainladder/utils/data/ukmotor.csv"
+    },
+    {
+      "path": "data/predictive_reserving/usaa.csv",
+      "git_blob_sha": "32c5d7e9254893ecd9b6e90c83ba2cf048bbac00",
+      "bytes": 1635,
+      "url": "https://raw.githubusercontent.com/casact/chainladder-python/856f87b5651004c799cf06704b8a9c3f7dd61d98/chainladder/utils/data/usaa.csv"
+    }
+  ],
+  "public_draws": 8192,
+  "calibration_cases_per_scenario": 256,
+  "calibration_draws": 4096,
+  "replay_replicates": [
+    0,
+    85,
+    170,
+    255
+  ],
+  "methods": [
+    "mack_normal",
+    "mack_lognormal",
+    "shared_lognormal",
+    "shared_gamma"
+  ],
+  "quantile_probabilities": [
+    0.025,
+    0.1,
+    0.5,
+    0.9,
+    0.95,
+    0.975,
+    0.995
+  ],
+  "primary_scoring": "Both 80% and 95% central coverage plus interval scores/widths, normalized by latest observed cumulative amounts. Report all methods and scenarios; do not select a winner or retune.",
+  "public_split": "For n origins, valuations m=max(4,n-4)..n-1; fit only i+j<m; predict i=2..m-1 next observed cumulative amounts. Exclude new origin and age with fewer than two historical pairs. RAA 22 old inspected predictions reproduced, never called new holdout.",
+  "public_aggregate": "Sum only eligible next-diagonal cumulative cells. Normal/lognormal moment approximations of known-subset sums; no claim of observed final reserve calibration.",
+  "public_distribution": "Mack normal and lognormal moment approximations for aggregate positive reserve mean; next-diagonal lognormal applies to positive cumulative amounts. Normal endpoints and negative simulated reserves retained.",
+  "shared_factor_simulation": "Independent positive age factor draws f* with E=f and Var=sigma2/sum(C); same f* shared across origins at that age. Positive conditional cumulative gamma/lognormal transitions with E=f*C, Var=sigma2*C. sigma2 fixed, no resampling or dispersion re-estimation. Explicit heuristic; neither bootstrap nor posterior; compare law-of-total-variance decomposition and fixed-factor process-only draws.",
+  "numerical_gamma_rule": "Zero cumulative gamma underflows retained, subsequent 0/0-moment transitions absorbing; no positive floor/redraw/draw deletion. Report final zero-origin counts. This is finite-precision approximation.",
+  "tail_factors": [
+    1,
+    1.01,
+    1.025,
+    1.05
+  ],
+  "tail_rule": "Deterministic multiplier on all final-age ultimate values, including oldest origin; standard error multiplied by factor with no extra tail variability. Sensitivity only; no chosen best factor.",
+  "calendar_diagnostic": "Leverage-adjusted Mack residuals by calendar and age; descriptive counts/means/std, no unsupported independence test or p-value.",
+  "calibration_design": {
+    "origins": 8,
+    "first_cumulative": [
+      900,
+      1080,
+      1260,
+      1440,
+      1620,
+      1800,
+      1980,
+      2160
+    ],
+    "factors": [
+      1.8,
+      1.45,
+      1.25,
+      1.12,
+      1.06,
+      1.025,
+      1.01
+    ],
+    "sigma_squared": [
+      600,
+      240,
+      100,
+      40,
+      16,
+      6.4,
+      2.56
+    ],
+    "scenarios": [
+      "independent_lognormal",
+      "independent_gamma",
+      "future_calendar_shock",
+      "shared_calendar_lognormal"
+    ],
+    "shock": "Mean factor multiplied 1.10 at first unobserved calendar (i+k+1=8) only; variance sigma2*C unchanged, later factors stable.",
+    "shared_calendar": "rho=.35 within same-calendar normal innovations before lognormal transform; each cell retains prescribed conditional mean/variance while origin independence is violated.",
+    "truth": "Realized full-horizon future cumulative ultimate sum minus latest observed sum; not mean reserve and not simulated public-triangle truth.",
+    "seeds": "DGP SeedSequence [20261011,scenario_index,replicate,0]; forecasts [20261011,scenario_index,replicate,1 or 2]. Gamma DGP per-cell independent [DGPseed,i,k,901]. Seed IDs fixed, every case retained.",
+    "failure_rule": "Retain failed methods in case table and coverage denominator; scores exclude failed rows only with count and denominator explicit. Structural/nonfinite pipeline failure blocks publication; no silent skipped source or alternative-source substitution."
+  },
+  "registration_scope": "Public pre-extension protocol before four new CSV collections and primary study execution. Original RAA data/predictions and public documentation examples (including some ABC summaries) already inspected. Public triangles are retrospective convenience benchmarks, not unseen prospective studies.",
+  "alternatives": {
+    "odp_residual_bootstrap": "Established two-stage incremental approach considered; differs from Mack cumulative moment model and requires explicit signed/negative-increment handling. Not silently substituted or claimed replicated.",
+    "published_mack_bootstrap": "Correct parametric-family and estimation-error assumptions cannot be inferred from 55 RAA cells; recent consistency paper distinguishes process and estimation risk. This simpler heuristic is deliberately named and calibrated as such.",
+    "cornish_fisher": "Official package quantiles additionally estimate skewness. Not replicated in this two-moment comparison; higher-moment/tail-estimation comparison remains open.",
+    "bayesian_calendar_models": "Potential stronger explicit dependence model; omitted to keep comparison finite and avoid pretending validated priors/client calibration; no assertion globally optimal."
+  },
+  "interpretation": "No nominal-coverage, regulator-capital, client valuation, IAS19/ASC715, new insurer generalization, original-vintage or independent review claim. AI-assisted research; candidate mastery deferred.",
+  "original_source_sha256": {
+    ".github/workflows/employee-benefits-actuarial-ci.yml": "c992e717d102c98e73f22096246a89fea7d8a31b5e1dc37dc9ece8ea6ba36fcb",
+    ".gitignore": "3a197e1d8edd0a9b54621ebead332f6359d88edc23431463de5148b5b625d10d",
+    "Employee_Benefits_Actuarial_Model.xlsx": "48d7a730ed2f2175afc61c1c8a665262dce42828cc429f94c2a8d383455f933c",
+    "data/LICENSE-MPL-2.0.txt": "393eaf2b92b3d49bea139e39b6fd205b6e99c499999986aec5554586a830dfdd",
+    "data/raa.csv": "2c154871665cadabb05422d511c01e64390ed595b1599d13ebe1356c14462333",
+    "data/synthetic_health_claims_triangle.csv": "7497c99847b7ccaff73e0b82d2f054676d94a0231128c81b1082742f86d79553",
+    "data/synthetic_pension_population.csv": "65ef6601ac08a0674b095c3b5e7dcba9d2a1f3ee7c4740a21a094859bdbebac1",
+    "docs/METHODOLOGY_AND_LIMITATIONS.md": "e976077278135027b483f8dc5938ad6f2686213206a302ef200ab6a41254dca9",
+    "docs/MODEL_REVIEW.md": "2ba22795eb6e117360f57c29235a826ac077fe16e0eaa76dd7cbe68faa1019ca",
+    "docs/WORKBOOK_FORMULA_MAP.md": "0e1ed4b9e0e78c2da98c80135ff4a48f69bfcaf77d88abe5a359f618224897ea",
+    "outputs/health_claims_sensitivity.csv": "f5b7796cf5bf7860c100220ebe074dec3f2dfd504e35dc0b344dad3cce8143b9",
+    "outputs/pension_cashflow_forecast.csv": "dfde28e950d2ab83850ac8ddd9882ecaf62fcd7dd5e78d4ac2b8f01d8cf4ccb7",
+    "outputs/pension_employee_valuation.csv": "6f9aa35fb8d85b964e9b861fa0f1720fab4cfedaa2149dd8a16ae81a19ce5123",
+    "outputs/pension_sensitivity.csv": "8ce28e83b475f90908bc03a9aa33ba4f6b03732abc485b24c5d02ce1d87b3139",
+    "outputs/stochastic_reserving/development_factors.csv": "f20c8539288b806aa697fe4120587703d8d4eb55338e37b92133937e64b009ef",
+    "outputs/stochastic_reserving/diagonal_backtest.csv": "e2d6b36cca7a24b32270801f1e4494c126f9a5ac66e59e8e49852642e3e496a5",
+    "outputs/stochastic_reserving/raa_reserves.csv": "58364ef0a23cab9ee80e3af59808ec481580e149a2fbd6a1900e5676fe5c9dc7",
+    "outputs/stochastic_reserving/summary.json": "b8388a8a618fb4c0619dbac80723c71ee5d6d037e626dd8ff050be284af06dca",
+    "outputs/summary.json": "1b8ca55716921614e57773f30fd0aee737480252d7894944bc1047becaaea2da",
+    "requirements.txt": "dfeae678b08313bfb79e414bc8ef277b0dc91ffd699332468d44b8adc81c6896",
+    "src/build_excel.py": "9e84f56856c74ce38af18195194b0daa9775f21dcaeacd91399c1517b4413c85",
+    "src/model.py": "ce6a653ba6f38c1d85ebf435b8c3b104962abe66ef6af3066fcd33d201d7fef2",
+    "src/stochastic_reserving.py": "67681a16d8fc2758e08a8d501f87fa347ba962f98607f07b1db97c5aa65a01d6",
+    "src/verify_workbook.py": "e188d6655dd589aa646c920b671c9f01190c68b4bc3a4460e102b58a9331f104",
+    "tests/test_model.py": "5bf06752b90fc7f94052b3eb1cf316d45d6e87f77481d863d12bc06ea78cb821",
+    "tests/test_stochastic_reserving.py": "787867489f6501cfb96b02492c4aaf1aa858c92f851bd0c1b862668b7c5b9a25"
+  }
+}
