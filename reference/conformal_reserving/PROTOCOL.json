@@ -1,0 +1,102 @@
+{
+  "study": "Registered whole-triangle predictive calibration and shift challenge",
+  "date": "2026-10-12",
+  "base_commit": "d85f40f755d85c79192ca0431adbab6652eba44b",
+  "unit": "Independent complete simulated triangle; never individual cells or dependent public valuation folds",
+  "seed_root": 20261012,
+  "seed_namespace": 73991,
+  "seed_vector": "[seed_root, seed_namespace, role 1=calibration or 2=evaluation, scenario_index, replicate, 0]",
+  "scenarios": [
+    "independent_lognormal",
+    "independent_gamma",
+    "future_calendar_shock",
+    "shared_calendar_lognormal"
+  ],
+  "dgp": {
+    "origins": 8,
+    "first_cumulative": [
+      900,
+      1080,
+      1260,
+      1440,
+      1620,
+      1800,
+      1980,
+      2160
+    ],
+    "factors": [
+      1.8,
+      1.45,
+      1.25,
+      1.12,
+      1.06,
+      1.025,
+      1.01
+    ],
+    "sigma_squared": [
+      600,
+      240,
+      100,
+      40,
+      16,
+      6.4,
+      2.56
+    ],
+    "scenarios": [
+      "independent_lognormal",
+      "independent_gamma",
+      "future_calendar_shock",
+      "shared_calendar_lognormal"
+    ],
+    "shock": "Mean factor multiplied 1.10 at first unobserved calendar (i+k+1=8) only; variance sigma2*C unchanged, later factors stable.",
+    "shared_calendar": "rho=.35 within same-calendar normal innovations before lognormal transform; each cell retains prescribed conditional mean/variance while origin independence is violated.",
+    "truth": "Realized full-horizon future cumulative ultimate sum minus latest observed sum; not mean reserve and not simulated public-triangle truth."
+  },
+  "old_dgp_source_sha256": "6496c6aeb5b494f44eee3401c470f46db8c2b74caeba03828353e636a86e8a76",
+  "old_mack_source_sha256": "67681a16d8fc2758e08a8d501f87fa347ba962f98607f07b1db97c5aa65a01d6",
+  "calibration_per_scenario": 512,
+  "evaluation_per_scenario": 1024,
+  "methods": [
+    "mack_normal",
+    "calibrated_normal",
+    "conformal_absolute",
+    "conformal_scaled"
+  ],
+  "levels": [
+    80,
+    90,
+    95
+  ],
+  "calibration_modes": [
+    "matched_distribution",
+    "independent_lognormal_calibration"
+  ],
+  "comparison_count": 98304,
+  "distinct_new_triangles": 6144,
+  "forecast_boundary": "Observed upper triangle only; no future target argument. Models persisted/hashed before evaluation draws. No method/hyperparameter/score/case selection from outcomes.",
+  "rank_rule": "Exact integer ceil((n+1)*level/100); kth order statistic, inclusive ties, infinite threshold when k>n. Marginal rank coverage only under whole-triangle exchangeability.",
+  "failure_rule": "X-only zero-reserve/exposure-scale map for failed Mack calibration cases; visible fallback. At evaluation, baseline failed/uncovered, calibrated methods whole-real-line/unbounded. Invalid shape/missing/negative/nonfinite/exposure blocks publication. All failures and zeros retained; no silent exclusion or redraw.",
+  "scale_rule": "max(raw Mack SE, latest observed cumulative sum*1e-12) for normalized score map. Uncalibrated Mack interval uses raw SE.",
+  "all_case_scores": "Failures/unbounded intervals mean infinite all-case width and score; finite means explicitly conditional with counts. Coverage denominator includes all 1024 evaluation cases.",
+  "group_diagnostics": "Exposure quartiles determined by corresponding matched-scenario calibration X only; no conditional/group coverage claim.",
+  "shift_rule": "Independent-lognormal calibrator transferred unchanged to all test laws; differing laws have no exchangeability guarantee. Same test draws reused, not additional trials.",
+  "scope": "New random draws from previously inspected fixed synthetic laws. No new public/client outcome, real insurer calibration, capital/benefits valuation, source-vintage, external review, adoption or mastery claim. Original public and 1024-case studies immutable.",
+  "environment": {
+    "python": "3.12",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "pytest": "8.3.3"
+  },
+  "frozen_sha256": {
+    "src/stochastic_reserving.py": "67681a16d8fc2758e08a8d501f87fa347ba962f98607f07b1db97c5aa65a01d6",
+    "src/predictive_reserving.py": "6496c6aeb5b494f44eee3401c470f46db8c2b74caeba03828353e636a86e8a76",
+    "requirements-predictive.txt": "292eaf28f052fe94beaad4d6249689b50299f5f0ad7b4b2b0d1e2b24dfadedec",
+    "src/conformal_reserving.py": "56d77f62c99154bb95416a5f98951230ccfdbb75a1bafe582734509bc34cd0da",
+    "benchmark_conformal_reserving.py": "7023eb5311d5e647e0c425006f0b55d0c047b2d23a0c3eec236aa6c39279563b",
+    "verify_conformal_reserving.py": "c9559b835a8b297924b4bab5dafe880832c560876c5c5b0f5f4c58f2aa59364c",
+    "tests/test_conformal_reserving.py": "54ffbcc66901bfd654942b65ba85c5fdb7c591b8d6cf735679b9c37c1688615a",
+    ".github/workflows/conformal-reserving.yml": "cdc597145ffe58587bf01f18d0b30af82f64f9f63a9cca3d22fcb994d58e3c0f",
+    "docs/CONFORMAL_RESERVING_DESIGN.md": "6730c0cbda7da2e1a5d73db14789c73db6af4b58fbb2da3d7e0c081f63564d3f"
+  }
+}

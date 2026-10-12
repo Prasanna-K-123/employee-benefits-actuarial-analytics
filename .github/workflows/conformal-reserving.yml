@@ -1,0 +1,26 @@
+name: Registered Whole-Triangle Calibration
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  calibration:
+    runs-on: ubuntu-latest
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-predictive.txt
+      - run: python -m pip install -r requirements-predictive.txt
+      - name: Historical and new finite-rank/failure controls
+        run: python -m pytest -q
+      - name: Independent saved-record audit and complete new-design replay
+        if: ${{ hashFiles('outputs/conformal_reserving/SUMMARY.json') != '' }}
+        run: python verify_conformal_reserving.py --replay-design
+      - name: Registration has no completed-result comparison yet
+        if: ${{ hashFiles('outputs/conformal_reserving/SUMMARY.json') == '' }}
+        run: echo 'REGISTERED SOURCE/TESTS ONLY; new results are not present and were not compared.'
