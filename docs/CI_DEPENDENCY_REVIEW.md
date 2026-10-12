@@ -7,7 +7,7 @@ at `sudo apt-get update -qq`, before LibreOffice installation or recalculation.
 The live job page showed only that package-index command; the recalculation
 must not be reported as passed. The superseded run was cancelled.
 
-The workflow now uses an existing LibreOffice installation when available,
+A separate bounded verification workflow now uses an existing LibreOffice installation when available,
 otherwise tries the runner's package cache before a bounded index refresh and
 retry. Network operations have 20-second acquisition timeouts, one retry,
 IPv4 acquisition and 180-second process limits. The whole recalculation step
@@ -26,3 +26,5 @@ include the actual LibreOffice recalculation and final workbook verification.
 
 Reference: [Debian APT configuration manual](https://manpages.debian.org/bookworm/apt/apt.conf.5.en.html)
 and [APT command manual](https://manpages.debian.org/bookworm/apt/apt-get.8.en.html).
+
+The first infrastructure attempt at commit `646529886de8c99631e3ad6c1ac49c43cd4d4e4d` changed the historical workflow and was correctly rejected by the prior predictive source guard (run38238019025). The original workflow is restored byte for byte. `.github/workflows/employee-benefits-bounded.yml` adds the bounded equivalent with all original workbook checks. No historical source guard or registered file hash is edited or bypassed. Stalled legacy index-refresh runs are cancelled and must not be reported passed; the matching-head bounded workbook run must complete before release.

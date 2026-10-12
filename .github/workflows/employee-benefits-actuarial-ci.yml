@@ -23,16 +23,9 @@ jobs:
           python -m src.build_excel
           python -m src.verify_workbook /tmp/published.xlsx Employee_Benefits_Actuarial_Model.xlsx
       - name: Recalculate rebuilt workbook in LibreOffice
-        timeout-minutes: 12
         run: |
-          apt_options=(-o Acquire::Retries=1 -o Acquire::http::Timeout=20 -o Acquire::https::Timeout=20 -o Acquire::ForceIPv4=true)
-          if ! command -v libreoffice >/dev/null; then
-            if ! timeout 180 sudo apt-get "${apt_options[@]}" install -y -qq --no-install-recommends libreoffice-calc; then
-              timeout 180 sudo apt-get "${apt_options[@]}" update -qq
-              timeout 180 sudo apt-get "${apt_options[@]}" install -y -qq --no-install-recommends libreoffice-calc
-            fi
-          fi
-          libreoffice --version
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libreoffice-calc
           mkdir -p recalculated
           libreoffice -env:UserInstallation=file:///tmp/benefits-lo --headless --convert-to xlsx --outdir recalculated Employee_Benefits_Actuarial_Model.xlsx
           python -m src.verify_workbook recalculated/Employee_Benefits_Actuarial_Model.xlsx
