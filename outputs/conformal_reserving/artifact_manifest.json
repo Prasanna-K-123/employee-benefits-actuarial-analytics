@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "path": "outputs/conformal_reserving/SUMMARY.json",
+      "bytes": 63152,
+      "sha256": "4dec53d698d287ca3061c039173f58a8994b478a60281ad81bd6443fbce6bc38"
+    },
+    {
+      "path": "outputs/conformal_reserving/calibration_models.json",
+      "bytes": 1876,
+      "sha256": "c27c0250b634a3fe0f8a6c055fb68837cbe2f42bc086c81d1d14a63189bd757b"
+    },
+    {
+      "path": "outputs/conformal_reserving/case_records.json.gz",
+      "bytes": 608080,
+      "sha256": "f56acec7e02f860ba404f0f19bb33c9f8fe5baa677f6a1e40d65b976c69f96f6"
+    },
+    {
+      "path": "outputs/conformal_reserving/exposure_strata.json",
+      "bytes": 189486,
+      "sha256": "9122132adb8cbe7d9479fa41a6d453364e74aae0e7674b10c62f568030dcf949"
+    },
+    {
+      "path": "outputs/conformal_reserving/intervals.npz",
+      "bytes": 1482400,
+      "sha256": "f27db28f402b6a4e1f49f148086160949153a8b018f0be26fe7ad227310560c9"
+    },
+    {
+      "path": "outputs/conformal_reserving/observed_triangles.npz",
+      "bytes": 1415447,
+      "sha256": "99a3f694ef6f76fcd95c2fa8dbb92e12981378f1b5c6250630d8dd16cc80c4ba"
+    }
+  ]
+}

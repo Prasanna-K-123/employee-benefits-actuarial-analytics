@@ -1,0 +1,12 @@
+{
+  "reason": "Registered oracle re-decompresses whole NPZ arrays on every interval index. Load each array once and call the unchanged verifier.",
+  "phase": "Post-study verification only; no new primary draws or analytic retuning.",
+  "unchanged": "Registered protocol, generator, Mack and interval implementations, benchmark, verifier, tests, ranks, scores, seeds, tolerances and completed outputs.",
+  "workflow_path": ".github/workflows/conformal-reserving.yml",
+  "original_workflow_sha256": "cdc597145ffe58587bf01f18d0b30af82f64f9f63a9cca3d22fcb994d58e3c0f",
+  "effective_workflow_sha256": "956f9851d3de007bfd45f93085ce8cdd5da09328b58a9dbed50d6f63b5f0c6ff",
+  "harness_path": "audit_conformal_cached.py",
+  "harness_sha256": "c97600974e906a9c190d1f083309640f969200a75357e77d5db2f5efb70d06db",
+  "scope": "Full 6144 scalar forecast checks, 98304 interval checks, all thresholds/summaries/384 strata and full new-design replay.",
+  "primary_study_rerun": false
+}

@@ -1,0 +1,6530 @@
+[
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 196,
+    "coverage": 0.7050359712230215,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 215,
+    "coverage": 0.8269230769230769,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 175,
+    "coverage": 0.8793969849246231,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 236,
+    "coverage": 0.8222996515679443,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 230,
+    "coverage": 0.8273381294964028,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 238,
+    "coverage": 0.9153846153846154,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 188,
+    "coverage": 0.9447236180904522,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 260,
+    "coverage": 0.9059233449477352,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 241,
+    "coverage": 0.8669064748201439,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 249,
+    "coverage": 0.9576923076923077,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 191,
+    "coverage": 0.9597989949748744,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 276,
+    "coverage": 0.9616724738675958,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 227,
+    "coverage": 0.8165467625899281,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 226,
+    "coverage": 0.8692307692307693,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 183,
+    "coverage": 0.9195979899497487,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 241,
+    "coverage": 0.8397212543554007,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 244,
+    "coverage": 0.8776978417266187,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 250,
+    "coverage": 0.9615384615384616,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 190,
+    "coverage": 0.9547738693467337,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 267,
+    "coverage": 0.9303135888501742,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 254,
+    "coverage": 0.9136690647482014,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 254,
+    "coverage": 0.9769230769230769,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 195,
+    "coverage": 0.9798994974874372,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 283,
+    "coverage": 0.9860627177700348,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 228,
+    "coverage": 0.8201438848920863,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 228,
+    "coverage": 0.8769230769230769,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 170,
+    "coverage": 0.8542713567839196,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 219,
+    "coverage": 0.7630662020905923,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 257,
+    "coverage": 0.9244604316546763,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 248,
+    "coverage": 0.9538461538461539,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 186,
+    "coverage": 0.9346733668341709,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 247,
+    "coverage": 0.8606271777003485,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 269,
+    "coverage": 0.9676258992805755,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 254,
+    "coverage": 0.9769230769230769,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 193,
+    "coverage": 0.9698492462311558,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 266,
+    "coverage": 0.926829268292683,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 197,
+    "coverage": 0.7086330935251799,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 216,
+    "coverage": 0.8307692307692308,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 175,
+    "coverage": 0.8793969849246231,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 236,
+    "coverage": 0.8222996515679443,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 237,
+    "coverage": 0.8525179856115108,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 243,
+    "coverage": 0.9346153846153846,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 190,
+    "coverage": 0.9547738693467337,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 271,
+    "coverage": 0.9442508710801394,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 258,
+    "coverage": 0.9280575539568345,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 255,
+    "coverage": 0.9807692307692307,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 197,
+    "coverage": 0.9899497487437185,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 286,
+    "coverage": 0.9965156794425087,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 196,
+    "coverage": 0.7050359712230215,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 215,
+    "coverage": 0.8269230769230769,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 175,
+    "coverage": 0.8793969849246231,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 236,
+    "coverage": 0.8222996515679443,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 230,
+    "coverage": 0.8273381294964028,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 238,
+    "coverage": 0.9153846153846154,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 188,
+    "coverage": 0.9447236180904522,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 260,
+    "coverage": 0.9059233449477352,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 241,
+    "coverage": 0.8669064748201439,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 249,
+    "coverage": 0.9576923076923077,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 191,
+    "coverage": 0.9597989949748744,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 276,
+    "coverage": 0.9616724738675958,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 227,
+    "coverage": 0.8165467625899281,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 226,
+    "coverage": 0.8692307692307693,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 183,
+    "coverage": 0.9195979899497487,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 241,
+    "coverage": 0.8397212543554007,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 244,
+    "coverage": 0.8776978417266187,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 250,
+    "coverage": 0.9615384615384616,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 190,
+    "coverage": 0.9547738693467337,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 267,
+    "coverage": 0.9303135888501742,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 254,
+    "coverage": 0.9136690647482014,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 254,
+    "coverage": 0.9769230769230769,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 195,
+    "coverage": 0.9798994974874372,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 283,
+    "coverage": 0.9860627177700348,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 228,
+    "coverage": 0.8201438848920863,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 228,
+    "coverage": 0.8769230769230769,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 170,
+    "coverage": 0.8542713567839196,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 219,
+    "coverage": 0.7630662020905923,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 257,
+    "coverage": 0.9244604316546763,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 248,
+    "coverage": 0.9538461538461539,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 186,
+    "coverage": 0.9346733668341709,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 247,
+    "coverage": 0.8606271777003485,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 269,
+    "coverage": 0.9676258992805755,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 254,
+    "coverage": 0.9769230769230769,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 193,
+    "coverage": 0.9698492462311558,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 266,
+    "coverage": 0.926829268292683,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 197,
+    "coverage": 0.7086330935251799,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 216,
+    "coverage": 0.8307692307692308,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 175,
+    "coverage": 0.8793969849246231,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 236,
+    "coverage": 0.8222996515679443,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 237,
+    "coverage": 0.8525179856115108,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 243,
+    "coverage": 0.9346153846153846,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 190,
+    "coverage": 0.9547738693467337,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 271,
+    "coverage": 0.9442508710801394,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 278,
+    "covered": 258,
+    "coverage": 0.9280575539568345,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 260,
+    "covered": 255,
+    "coverage": 0.9807692307692307,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 199,
+    "covered": 197,
+    "coverage": 0.9899497487437185,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 287,
+    "covered": 286,
+    "coverage": 0.9965156794425087,
+    "quartile_cutoffs_from_calibration": [
+      30097.965778383743,
+      33547.31681535192,
+      36490.66237258327
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 216,
+    "coverage": 0.7372013651877133,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 176,
+    "coverage": 0.7963800904977375,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 211,
+    "coverage": 0.844,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 214,
+    "coverage": 0.823076923076923,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 252,
+    "coverage": 0.8600682593856656,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 193,
+    "coverage": 0.8733031674208145,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 233,
+    "coverage": 0.932,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 241,
+    "coverage": 0.926923076923077,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 261,
+    "coverage": 0.8907849829351536,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 204,
+    "coverage": 0.9230769230769231,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 242,
+    "coverage": 0.968,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 254,
+    "coverage": 0.9769230769230769,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 233,
+    "coverage": 0.7952218430034129,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 184,
+    "coverage": 0.832579185520362,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 219,
+    "coverage": 0.876,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 220,
+    "coverage": 0.8461538461538461,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 258,
+    "coverage": 0.8805460750853242,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 202,
+    "coverage": 0.9140271493212669,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 236,
+    "coverage": 0.944,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 247,
+    "coverage": 0.95,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 269,
+    "coverage": 0.9180887372013652,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 209,
+    "coverage": 0.9457013574660633,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 243,
+    "coverage": 0.972,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 256,
+    "coverage": 0.9846153846153847,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 239,
+    "coverage": 0.8156996587030717,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 179,
+    "coverage": 0.8099547511312217,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 212,
+    "coverage": 0.848,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 191,
+    "coverage": 0.7346153846153847,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 268,
+    "coverage": 0.9146757679180887,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 208,
+    "coverage": 0.9411764705882353,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 232,
+    "coverage": 0.928,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 226,
+    "coverage": 0.8692307692307693,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 278,
+    "coverage": 0.9488054607508533,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 212,
+    "coverage": 0.9592760180995475,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 240,
+    "coverage": 0.96,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 246,
+    "coverage": 0.9461538461538461,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 222,
+    "coverage": 0.757679180887372,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 178,
+    "coverage": 0.8054298642533937,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 218,
+    "coverage": 0.872,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 222,
+    "coverage": 0.8538461538461538,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 256,
+    "coverage": 0.8737201365187713,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 199,
+    "coverage": 0.9004524886877828,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 235,
+    "coverage": 0.94,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 246,
+    "coverage": 0.9461538461538461,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 266,
+    "coverage": 0.9078498293515358,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 207,
+    "coverage": 0.9366515837104072,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 243,
+    "coverage": 0.972,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_gamma",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 256,
+    "coverage": 0.9846153846153847,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 216,
+    "coverage": 0.7372013651877133,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 176,
+    "coverage": 0.7963800904977375,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 211,
+    "coverage": 0.844,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 214,
+    "coverage": 0.823076923076923,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 252,
+    "coverage": 0.8600682593856656,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 193,
+    "coverage": 0.8733031674208145,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 233,
+    "coverage": 0.932,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 241,
+    "coverage": 0.926923076923077,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 261,
+    "coverage": 0.8907849829351536,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 204,
+    "coverage": 0.9230769230769231,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 242,
+    "coverage": 0.968,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 254,
+    "coverage": 0.9769230769230769,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 249,
+    "coverage": 0.8498293515358362,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 191,
+    "coverage": 0.8642533936651584,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 224,
+    "coverage": 0.896,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 223,
+    "coverage": 0.8576923076923076,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 265,
+    "coverage": 0.9044368600682594,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 206,
+    "coverage": 0.9321266968325792,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 237,
+    "coverage": 0.948,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 248,
+    "coverage": 0.9538461538461539,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 274,
+    "coverage": 0.9351535836177475,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 212,
+    "coverage": 0.9592760180995475,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 247,
+    "coverage": 0.988,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 256,
+    "coverage": 0.9846153846153847,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 241,
+    "coverage": 0.8225255972696246,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 184,
+    "coverage": 0.832579185520362,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 216,
+    "coverage": 0.864,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 194,
+    "coverage": 0.7461538461538462,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 271,
+    "coverage": 0.9249146757679181,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 208,
+    "coverage": 0.9411764705882353,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 235,
+    "coverage": 0.94,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 229,
+    "coverage": 0.8807692307692307,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 280,
+    "coverage": 0.9556313993174061,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 214,
+    "coverage": 0.9683257918552036,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 240,
+    "coverage": 0.96,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 248,
+    "coverage": 0.9538461538461539,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 217,
+    "coverage": 0.7406143344709898,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 177,
+    "coverage": 0.8009049773755657,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 212,
+    "coverage": 0.848,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 217,
+    "coverage": 0.8346153846153846,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 258,
+    "coverage": 0.8805460750853242,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 200,
+    "coverage": 0.9049773755656109,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 237,
+    "coverage": 0.948,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 248,
+    "coverage": 0.9538461538461539,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 293,
+    "covered": 276,
+    "coverage": 0.9419795221843004,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 221,
+    "covered": 212,
+    "coverage": 0.9592760180995475,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 250,
+    "covered": 248,
+    "coverage": 0.992,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "independent_gamma",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 260,
+    "covered": 260,
+    "coverage": 1.0,
+    "quartile_cutoffs_from_calibration": [
+      30217.064410744482,
+      33234.75724468,
+      37035.036515243286
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 105,
+    "coverage": 0.4430379746835443,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 146,
+    "coverage": 0.5680933852140078,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 174,
+    "coverage": 0.6823529411764706,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 221,
+    "coverage": 0.8036363636363636,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 139,
+    "coverage": 0.5864978902953587,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 180,
+    "coverage": 0.7003891050583657,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 204,
+    "coverage": 0.8,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 247,
+    "coverage": 0.8981818181818182,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 153,
+    "coverage": 0.6455696202531646,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 199,
+    "coverage": 0.77431906614786,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 220,
+    "coverage": 0.8627450980392157,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 261,
+    "coverage": 0.9490909090909091,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 178,
+    "coverage": 0.7510548523206751,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 219,
+    "coverage": 0.8521400778210116,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 222,
+    "coverage": 0.8705882352941177,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 237,
+    "coverage": 0.8618181818181818,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 191,
+    "coverage": 0.8059071729957806,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 238,
+    "coverage": 0.9260700389105059,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 247,
+    "coverage": 0.9686274509803922,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 266,
+    "coverage": 0.9672727272727273,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 208,
+    "coverage": 0.8776371308016878,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 245,
+    "coverage": 0.953307392996109,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 250,
+    "coverage": 0.9803921568627451,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 269,
+    "coverage": 0.9781818181818182,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 163,
+    "coverage": 0.6877637130801688,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 198,
+    "coverage": 0.7704280155642024,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 206,
+    "coverage": 0.807843137254902,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 241,
+    "coverage": 0.8763636363636363,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 196,
+    "coverage": 0.8270042194092827,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 229,
+    "coverage": 0.8910505836575876,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 236,
+    "coverage": 0.9254901960784314,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 261,
+    "coverage": 0.9490909090909091,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 215,
+    "coverage": 0.9071729957805907,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 243,
+    "coverage": 0.9455252918287937,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 246,
+    "coverage": 0.9647058823529412,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 270,
+    "coverage": 0.9818181818181818,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 150,
+    "coverage": 0.6329113924050633,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 198,
+    "coverage": 0.7704280155642024,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 217,
+    "coverage": 0.8509803921568627,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 256,
+    "coverage": 0.9309090909090909,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 181,
+    "coverage": 0.7637130801687764,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 224,
+    "coverage": 0.8715953307392996,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 239,
+    "coverage": 0.9372549019607843,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 269,
+    "coverage": 0.9781818181818182,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 209,
+    "coverage": 0.8818565400843882,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 246,
+    "coverage": 0.9571984435797666,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 253,
+    "coverage": 0.9921568627450981,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "future_calendar_shock",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 273,
+    "coverage": 0.9927272727272727,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 105,
+    "coverage": 0.4430379746835443,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 146,
+    "coverage": 0.5680933852140078,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 174,
+    "coverage": 0.6823529411764706,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 221,
+    "coverage": 0.8036363636363636,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 139,
+    "coverage": 0.5864978902953587,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 180,
+    "coverage": 0.7003891050583657,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 204,
+    "coverage": 0.8,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 247,
+    "coverage": 0.8981818181818182,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 153,
+    "coverage": 0.6455696202531646,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 199,
+    "coverage": 0.77431906614786,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 220,
+    "coverage": 0.8627450980392157,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 261,
+    "coverage": 0.9490909090909091,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 139,
+    "coverage": 0.5864978902953587,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 180,
+    "coverage": 0.7003891050583657,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 201,
+    "coverage": 0.788235294117647,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 244,
+    "coverage": 0.8872727272727273,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 157,
+    "coverage": 0.6624472573839663,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 207,
+    "coverage": 0.8054474708171206,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 223,
+    "coverage": 0.8745098039215686,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 267,
+    "coverage": 0.9709090909090909,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 179,
+    "coverage": 0.7552742616033755,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 222,
+    "coverage": 0.8638132295719845,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 238,
+    "coverage": 0.9333333333333333,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 269,
+    "coverage": 0.9781818181818182,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 132,
+    "coverage": 0.5569620253164557,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 165,
+    "coverage": 0.642023346303502,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 180,
+    "coverage": 0.7058823529411765,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 212,
+    "coverage": 0.7709090909090909,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 166,
+    "coverage": 0.70042194092827,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 204,
+    "coverage": 0.7937743190661478,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 213,
+    "coverage": 0.8352941176470589,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 247,
+    "coverage": 0.8981818181818182,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 192,
+    "coverage": 0.810126582278481,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 225,
+    "coverage": 0.8754863813229572,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 234,
+    "coverage": 0.9176470588235294,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 259,
+    "coverage": 0.9418181818181818,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 105,
+    "coverage": 0.4430379746835443,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 148,
+    "coverage": 0.5758754863813229,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 174,
+    "coverage": 0.6823529411764706,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 221,
+    "coverage": 0.8036363636363636,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 150,
+    "coverage": 0.6329113924050633,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 196,
+    "coverage": 0.7626459143968871,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 216,
+    "coverage": 0.8470588235294118,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 255,
+    "coverage": 0.9272727272727272,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 237,
+    "covered": 184,
+    "coverage": 0.7763713080168776,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 257,
+    "covered": 227,
+    "coverage": 0.8832684824902723,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 255,
+    "covered": 241,
+    "coverage": 0.9450980392156862,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "future_calendar_shock",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 275,
+    "covered": 269,
+    "coverage": 0.9781818181818182,
+    "quartile_cutoffs_from_calibration": [
+      30121.564030449015,
+      33461.23071193535,
+      37146.20570148226
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 128,
+    "coverage": 0.5019607843137255,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 157,
+    "coverage": 0.6767241379310345,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 185,
+    "coverage": 0.7170542635658915,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 167,
+    "coverage": 0.5985663082437276,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 148,
+    "coverage": 0.5803921568627451,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 184,
+    "coverage": 0.7931034482758621,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 217,
+    "coverage": 0.8410852713178295,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 205,
+    "coverage": 0.7347670250896058,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 165,
+    "coverage": 0.6470588235294118,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 194,
+    "coverage": 0.8362068965517241,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 234,
+    "coverage": 0.9069767441860465,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 225,
+    "coverage": 0.8064516129032258,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 172,
+    "coverage": 0.6745098039215687,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 199,
+    "coverage": 0.8577586206896551,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 233,
+    "coverage": 0.9031007751937985,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 219,
+    "coverage": 0.7849462365591398,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 203,
+    "coverage": 0.796078431372549,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 212,
+    "coverage": 0.9137931034482759,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 252,
+    "coverage": 0.9767441860465116,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 251,
+    "coverage": 0.899641577060932,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 218,
+    "coverage": 0.8549019607843137,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 220,
+    "coverage": 0.9482758620689655,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 256,
+    "coverage": 0.9922480620155039,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 266,
+    "coverage": 0.953405017921147,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 196,
+    "coverage": 0.7686274509803922,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 193,
+    "coverage": 0.8318965517241379,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 220,
+    "coverage": 0.8527131782945736,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 182,
+    "coverage": 0.6523297491039427,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 231,
+    "coverage": 0.9058823529411765,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 210,
+    "coverage": 0.9051724137931034,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 239,
+    "coverage": 0.9263565891472868,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 210,
+    "coverage": 0.7526881720430108,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 245,
+    "coverage": 0.9607843137254902,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 227,
+    "coverage": 0.978448275862069,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 254,
+    "coverage": 0.9844961240310077,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 251,
+    "coverage": 0.899641577060932,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 159,
+    "coverage": 0.6235294117647059,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 193,
+    "coverage": 0.8318965517241379,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 230,
+    "coverage": 0.8914728682170543,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 219,
+    "coverage": 0.7849462365591398,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 192,
+    "coverage": 0.7529411764705882,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 209,
+    "coverage": 0.9008620689655172,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 251,
+    "coverage": 0.9728682170542635,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 254,
+    "coverage": 0.910394265232975,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 220,
+    "coverage": 0.8627450980392157,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 223,
+    "coverage": 0.9612068965517241,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 257,
+    "coverage": 0.9961240310077519,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "shared_calendar_lognormal",
+    "mode": "matched_distribution",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 272,
+    "coverage": 0.974910394265233,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 128,
+    "coverage": 0.5019607843137255,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 157,
+    "coverage": 0.6767241379310345,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 185,
+    "coverage": 0.7170542635658915,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 167,
+    "coverage": 0.5985663082437276,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 148,
+    "coverage": 0.5803921568627451,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 184,
+    "coverage": 0.7931034482758621,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 217,
+    "coverage": 0.8410852713178295,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 205,
+    "coverage": 0.7347670250896058,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 165,
+    "coverage": 0.6470588235294118,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 194,
+    "coverage": 0.8362068965517241,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 234,
+    "coverage": 0.9069767441860465,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "mack_normal",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 225,
+    "coverage": 0.8064516129032258,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 146,
+    "coverage": 0.5725490196078431,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 177,
+    "coverage": 0.7629310344827587,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 198,
+    "coverage": 0.7674418604651163,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 176,
+    "coverage": 0.6308243727598566,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 169,
+    "coverage": 0.6627450980392157,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 195,
+    "coverage": 0.8405172413793104,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 230,
+    "coverage": 0.8914728682170543,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 216,
+    "coverage": 0.7741935483870968,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 192,
+    "coverage": 0.7529411764705882,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 204,
+    "coverage": 0.8793103448275862,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 241,
+    "coverage": 0.9341085271317829,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "calibrated_normal",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 237,
+    "coverage": 0.8494623655913979,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 163,
+    "coverage": 0.6392156862745098,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 175,
+    "coverage": 0.7543103448275862,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 193,
+    "coverage": 0.748062015503876,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 146,
+    "coverage": 0.5232974910394266,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 196,
+    "coverage": 0.7686274509803922,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 193,
+    "coverage": 0.8318965517241379,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 220,
+    "coverage": 0.8527131782945736,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 182,
+    "coverage": 0.6523297491039427,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 220,
+    "coverage": 0.8627450980392157,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 206,
+    "coverage": 0.8879310344827587,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 234,
+    "coverage": 0.9069767441860465,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_absolute",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 200,
+    "coverage": 0.7168458781362007,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 129,
+    "coverage": 0.5058823529411764,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 159,
+    "coverage": 0.6853448275862069,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 185,
+    "coverage": 0.7170542635658915,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 80,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 170,
+    "coverage": 0.6093189964157706,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 157,
+    "coverage": 0.615686274509804,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 192,
+    "coverage": 0.8275862068965517,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 229,
+    "coverage": 0.8875968992248062,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 90,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 219,
+    "coverage": 0.7849462365591398,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 1,
+    "cases": 255,
+    "covered": 199,
+    "coverage": 0.7803921568627451,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 2,
+    "cases": 232,
+    "covered": 210,
+    "coverage": 0.9051724137931034,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 3,
+    "cases": 258,
+    "covered": 251,
+    "coverage": 0.9728682170542635,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  },
+  {
+    "scenario": "shared_calendar_lognormal",
+    "calibration_scenario": "independent_lognormal",
+    "mode": "independent_lognormal_calibration",
+    "method": "conformal_scaled",
+    "level": 95,
+    "exposure_quartile": 4,
+    "cases": 279,
+    "covered": 257,
+    "coverage": 0.921146953405018,
+    "quartile_cutoffs_from_calibration": [
+      29062.964675794967,
+      33245.84773906265,
+      37826.62160185116
+    ],
+    "claim": "Diagnostic only; no conditional/group-coverage guarantee"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "commit": "73bf40e2fa16cb7bd81fabc04c320abfa87cff2a",
+  "tree": "a6767d402dafd0fc17a45d59735b605eb22a7478",
+  "branch": "research/conformal-reserving-20261012",
+  "protocol_sha256": "91f6a810d2ed6c88aa0f6a54c50cc81db9d9a81b2df3dc341e01a4e14e880f90",
+  "frozen_sha256": {
+    "src/stochastic_reserving.py": "67681a16d8fc2758e08a8d501f87fa347ba962f98607f07b1db97c5aa65a01d6",
+    "src/predictive_reserving.py": "6496c6aeb5b494f44eee3401c470f46db8c2b74caeba03828353e636a86e8a76",
+    "requirements-predictive.txt": "292eaf28f052fe94beaad4d6249689b50299f5f0ad7b4b2b0d1e2b24dfadedec",
+    "src/conformal_reserving.py": "56d77f62c99154bb95416a5f98951230ccfdbb75a1bafe582734509bc34cd0da",
+    "benchmark_conformal_reserving.py": "7023eb5311d5e647e0c425006f0b55d0c047b2d23a0c3eec236aa6c39279563b",
+    "verify_conformal_reserving.py": "c9559b835a8b297924b4bab5dafe880832c560876c5c5b0f5f4c58f2aa59364c",
+    "tests/test_conformal_reserving.py": "54ffbcc66901bfd654942b65ba85c5fdb7c591b8d6cf735679b9c37c1688615a",
+    ".github/workflows/conformal-reserving.yml": "956f9851d3de007bfd45f93085ce8cdd5da09328b58a9dbed50d6f63b5f0c6ff",
+    "docs/CONFORMAL_RESERVING_DESIGN.md": "6730c0cbda7da2e1a5d73db14789c73db6af4b58fbb2da3d7e0c081f63564d3f",
+    "audit_conformal_cached.py": "c97600974e906a9c190d1f083309640f969200a75357e77d5db2f5efb70d06db"
+  },
+  "registration_before_new_draws": true,
+  "local_preexecution_tests": 41,
+  "stored_result_replay_at_registration": false,
+  "original_registered_frozen_sha256": {
+    "src/stochastic_reserving.py": "67681a16d8fc2758e08a8d501f87fa347ba962f98607f07b1db97c5aa65a01d6",
+    "src/predictive_reserving.py": "6496c6aeb5b494f44eee3401c470f46db8c2b74caeba03828353e636a86e8a76",
+    "requirements-predictive.txt": "292eaf28f052fe94beaad4d6249689b50299f5f0ad7b4b2b0d1e2b24dfadedec",
+    "src/conformal_reserving.py": "56d77f62c99154bb95416a5f98951230ccfdbb75a1bafe582734509bc34cd0da",
+    "benchmark_conformal_reserving.py": "7023eb5311d5e647e0c425006f0b55d0c047b2d23a0c3eec236aa6c39279563b",
+    "verify_conformal_reserving.py": "c9559b835a8b297924b4bab5dafe880832c560876c5c5b0f5f4c58f2aa59364c",
+    "tests/test_conformal_reserving.py": "54ffbcc66901bfd654942b65ba85c5fdb7c591b8d6cf735679b9c37c1688615a",
+    ".github/workflows/conformal-reserving.yml": "cdc597145ffe58587bf01f18d0b30af82f64f9f63a9cca3d22fcb994d58e3c0f",
+    "docs/CONFORMAL_RESERVING_DESIGN.md": "6730c0cbda7da2e1a5d73db14789c73db6af4b58fbb2da3d7e0c081f63564d3f"
+  },
+  "execution_only_amendment": {
+    "reason": "Registered oracle re-decompresses whole NPZ arrays on every interval index. Load each array once and call the unchanged verifier.",
+    "phase": "Post-study verification only; no new primary draws or analytic retuning.",
+    "unchanged": "Registered protocol, generator, Mack and interval implementations, benchmark, verifier, tests, ranks, scores, seeds, tolerances and completed outputs.",
+    "workflow_path": ".github/workflows/conformal-reserving.yml",
+    "original_workflow_sha256": "cdc597145ffe58587bf01f18d0b30af82f64f9f63a9cca3d22fcb994d58e3c0f",
+    "effective_workflow_sha256": "956f9851d3de007bfd45f93085ce8cdd5da09328b58a9dbed50d6f63b5f0c6ff",
+    "harness_path": "audit_conformal_cached.py",
+    "harness_sha256": "c97600974e906a9c190d1f083309640f969200a75357e77d5db2f5efb70d06db",
+    "scope": "Full 6144 scalar forecast checks, 98304 interval checks, all thresholds/summaries/384 strata and full new-design replay.",
+    "primary_study_rerun": false
+  }
+}

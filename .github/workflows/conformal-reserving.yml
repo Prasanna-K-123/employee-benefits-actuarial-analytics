@@ -20,7 +20,7 @@ jobs:
         run: python -m pytest -q
       - name: Independent saved-record audit and complete new-design replay
         if: ${{ hashFiles('outputs/conformal_reserving/SUMMARY.json') != '' }}
-        run: python verify_conformal_reserving.py --replay-design
+        run: python audit_conformal_cached.py
       - name: Registration has no completed-result comparison yet
         if: ${{ hashFiles('outputs/conformal_reserving/SUMMARY.json') == '' }}
         run: echo 'REGISTERED SOURCE/TESTS ONLY; new results are not present and were not compared.'

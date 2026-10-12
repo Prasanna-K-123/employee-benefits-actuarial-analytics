@@ -1,0 +1,9 @@
+{
+  "independent_scalar_forecasts": 6144,
+  "independent_interval_rows": 98304,
+  "independent_rank_mean_std_and_summary_checks": true,
+  "full_new_design_replays": 6144,
+  "old_1024_study_seeds_rerun": 0,
+  "scope": "Automated internal oracle; not external practitioner review.",
+  "execution_amendment": "NPZ arrays loaded once in memory; unchanged registered verifier/formulas/tolerances; no primary study rerun"
+}

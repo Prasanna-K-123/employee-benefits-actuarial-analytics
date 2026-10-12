@@ -1,5 +1,15 @@
 # Actuarial Risk Modelling — Employee Benefits & Stochastic Reserving
 
+## Registered whole-triangle calibration and shift review — 2026-10-12
+
+[Complete comparison and limitations](docs/CONFORMAL_RESERVING_REVIEW.md) · [Frozen protocol](reference/conformal_reserving/PROTOCOL.json) · [All results](outputs/conformal_reserving/SUMMARY.json) · [Independent full audit](reference/conformal_reserving/INDEPENDENT_AUDIT.json)
+
+**6,144 new synthetic whole triangles**: 512 calibration + 1,024 separate evaluation per law; four methods, three levels, matched and transferred calibration. Models were frozen before evaluation. Nominal-95% absolute-conformal coverage is **95.12–95.90% with matched calibration**, but **83.98% under transfer to shared-calendar risk**. Scaled conformal is not uniformly better; subgroup undercoverage and Gaussian baseline comparisons remain visible. This does not establish real-insurer or temporal coverage.
+
+Independent scalar checks cover all 6,144 forecasts and 98,304 reused interval rows, plus full new-design replay; the original public and 1,024-case studies remain unchanged.
+
+[![Registered Whole-Triangle Calibration](https://github.com/Prasanna-K-123/employee-benefits-actuarial-analytics/actions/workflows/conformal-reserving.yml/badge.svg)](https://github.com/Prasanna-K-123/employee-benefits-actuarial-analytics/actions/workflows/conformal-reserving.yml)
+
 ## Registered predictive uncertainty review - 2026-10-11
 
 [Read the predictive/calibration review](docs/PREDICTIVE_UNCERTAINTY_REVIEW.md) · [Frozen protocol](reference/predictive_reserving/PROTOCOL.json) · [Complete result summary](outputs/predictive_reserving/summary.json) · [Simulation cases](outputs/predictive_reserving/calibration_cases.csv)
