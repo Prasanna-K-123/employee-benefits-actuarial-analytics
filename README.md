@@ -83,3 +83,11 @@ The retirement proxy omits mortality, turnover, plan-specific rules, assets and 
 ## Project provenance
 
 This is the standalone continuation of the [original project in the profile repository](https://github.com/Prasanna-K-123/Prasanna-K-123/tree/5ca25bdc21308c02def796b85ba45cf7d4aae5a5/workforce-solutions-actuarial-analytics). The original evidence and history remain intact. The core Python model, synthetic seed, eight controls and headline results are preserved. This release adds a direct workbook download and workbook checks, corrects the years-to-retirement format, adds the pension total and selected-trend output, and handles a zero annuity rate.
+
+## Licence and source terms
+
+Original code and original project documentation are available under the
+[MIT licence](LICENSE). Third-party data, report excerpts, benchmark records and
+model weights retain their own terms; see [source rights and attribution](NOTICE.md).
+The code licence does not grant additional rights in those sources or establish
+professional, regulatory or production approval of the research.
